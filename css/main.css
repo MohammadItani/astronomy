@@ -1,0 +1,69 @@
+
+
+.error-msg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-msg h1 {
+    text-align: center;
+}
+
+.header, .main-container {
+    display: none;
+}
+
+@media (max-width: 700px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .error-msg {
+      display: none;
+  }
+
+  body {
+    background-image: url("../imgs/img-3.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header {
+      display: block;
+  }
+
+  .header h1 {
+    color: #fff;
+    text-align: center;
+  }
+
+   .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .img-title h3 {
+      color: #fff;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+   .planet-img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+  } 
+
+  .saturn-img {
+      width: 300px;
+  }
+
+  .uranus-img {
+      width: 250px;
+  }
+}

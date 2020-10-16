@@ -1,0 +1,54 @@
+@media(max-width: 700px) {
+    * {
+        box-sizing: border-box;
+    }
+    .main-header {
+        margin-bottom: 30px;
+    }
+    .main-header h1 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .main-header h6 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .main-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .main-container ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .main-container .info-card p {
+        text-align: center;
+    }
+
+    .main-container .info-card-number {
+        height: 35px;
+    }
+
+    .main-container .info-card-number p {
+        color: #aaa;
+        border: 1px solid #aaa;
+        border-radius: 50%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-container .main-slider {
+        margin-bottom: 20px;
+    }
+
+    .main-container .main-slider h1 {
+        text-align: center;
+    }
+}
